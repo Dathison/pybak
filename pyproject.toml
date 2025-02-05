@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pybak"
+dynamic = ["version"]
+description = "Semi-automated backups with Restic"
+readme = "README.adoc"
+requires-python = ">=3.12"
+
+[tool.setuptools.dynamic]
+version = { attr = "pybak.__version__" }
