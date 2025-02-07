@@ -4,7 +4,15 @@
 
 - (x)
 
+=== [0.0.1] 2025-02-07
+
+==== Added
+* ``PybakBackup`` class in ``src/pybak/pybak.py``.
+* ``PybakBackup`` can initialise a Restic repository with minimal error handling.
+* ``src/pybak/pybak_utils.py`` file for all of the small stuff that will eventually be needed.
+* ``requirements.txt`` to install Python dependencies.
+
 === [0.0.0] 2025-02-05
 
 ==== Added
-- This project.
+* This project.
