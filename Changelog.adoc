@@ -4,6 +4,14 @@
 
 - (x)
 
+=== [0.0.2] 2025-08-02
+
+==== Added
+* ``PybakBackup`` can backup a single path (Directory or file) to a given Restic repository.
+
+==== Changed
+* Fixed very minor grammatical mistake in docstring for ``lookup_file`` in ``pybak_utils.py``
+
 === [0.0.1] 2025-02-07
 
 ==== Added
