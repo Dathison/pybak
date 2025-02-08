@@ -28,7 +28,7 @@ def lookup_file(path:str) -> bool:
         path (str): File to be checked.
 
     Returns:
-        bool: True if the file  exists, false if it does not.
+        bool: True if the file exists, false if it does not.
     """
 
     if path == None:
